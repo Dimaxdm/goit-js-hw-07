@@ -31,7 +31,7 @@ const galleryMarkup = images
   .map(
     image=> `
       <li class="gallery-item">
-        <img class="gallery-image" src="${image.url}" alt="${image.alt}"
+        <img class="gallery-image" src="${image.url}" alt="${image.alt}" />
       </li>
     `
   )
